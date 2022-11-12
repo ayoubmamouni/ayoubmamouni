@@ -1,0 +1,60 @@
+header {
+  @include flex(center, center);
+  flex-direction: column;
+  .header-img {
+    padding: 10px 0;
+    @include flex(center, center);
+    img {
+      width: $Width;
+      max-width: 300px;
+    }
+  }
+
+  .authorDetails {
+    width: 100%;
+    @include flex(center, center);
+    flex-direction: column;
+    #authorName {
+      font-size: 30px;
+      color: $itemsColor;
+      margin-bottom: 20px;
+    }
+    .description {
+      background: $PrimaryColorMoreDarker;
+      max-width: $MaxWidth;
+      width: $Width;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      line-height: 1.4;
+      #descriptionText {
+        color: $FontColor;
+        opacity: 0.6;
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+
+  //  social media icons
+  .socialMediaIcons {
+    @include flex(center, center);
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0;
+    .icon {
+      a {
+        @include flex(center, center);
+        text-decoration: none;
+        background: $itemsColor;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        i {
+          font-size: 30px;
+          color: $PrimaryColorMoreDarker;
+          transition: 550ms;
+        }
+      }
+    }
+  }
+}

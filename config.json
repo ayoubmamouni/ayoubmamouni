@@ -1,0 +1,19 @@
+{
+  "AuthorName": "Ayoub Mamouni",
+  "WebsiteTitle": "Ayoub Mamouni Portfolio",
+  "description": "My hobby is programming, I have more than three years of experience, I specialize in web development, also I have a simplee experience in 2D Game development.",
+  "MainImgSrc": "/src/img/logo.png",
+  "MainImgSrcALT": "Ayoub Mamouni Logo",
+  "ShowGithub": true,
+  "Github": "https://github.com/ayoubmamouni/",
+  "ShowFb": true,
+  "Fb": "https://web.facebook.com/ayoubmamouni24/",
+  "showInstagram": true,
+  "Instagram": "https://instagram.com/mamouni.dev",
+  "showYoutube": true,
+  "Youtube": "https://youtube.com/@ayoubmamouni",
+  "showTwitter": true,
+  "twitter": "https://twitter.com/ayoubmamouni24",
+  "showtWhatsapp": true,
+  "WhatsappNumber": "+212605914009"
+}

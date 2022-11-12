@@ -1,0 +1,26 @@
+.skills {
+  @include flex(center, center);
+  flex-direction: column;
+  margin-top: 20px;
+  .title {
+    h1 {
+      color: $itemsColor;
+      font-size: 40px;
+    }
+  }
+  &-items {
+    max-width: $MaxWidth;
+    width: $Width;
+    @include flex(center, center);
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 15px;
+    h3 {
+      padding: 5px 10px;
+      font-size: 15px;
+      background: $itemsColor;
+      color: $PrimaryColorMoreDarker;
+      border-radius: 2rem;
+    }
+  }
+}

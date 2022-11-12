@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// colors
+$PrimaryColor: #34495e;
+$PrimaryColorMoreDarker: #2c3e50;
+$FontColor: #ecf0f1;
+$itemsColor: #f1c40f;
+$mainFont: "Rubik", sans-serif;
+
+$MaxWidth: 550px;
+$Width: 95%;
+
+@mixin flex($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@import "./header";
+@import "./skills";
+body {
+  background: $PrimaryColor;
+  font-family: $mainFont;
+  overflow-x: hidden;
+}
+// social media icons
+.github,
+.ig,
+.fb,
+.youtube,
+.twitter,
+.whatsapp {
+  display: none;
+}

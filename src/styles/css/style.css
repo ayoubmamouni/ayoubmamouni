@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .header-img {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-img img {
+  width: 95%;
+  max-width: 300px;
+}
+header .authorDetails {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .authorDetails #authorName {
+  font-size: 30px;
+  color: #f1c40f;
+  margin-bottom: 20px;
+}
+header .authorDetails .description {
+  background: #2c3e50;
+  max-width: 550px;
+  width: 95%;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 1.4;
+}
+header .authorDetails .description #descriptionText {
+  color: #ecf0f1;
+  opacity: 0.6;
+  letter-spacing: 0.8px;
+}
+header .socialMediaIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px 0;
+}
+header .socialMediaIcons .icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #f1c40f;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+header .socialMediaIcons .icon a i {
+  font-size: 30px;
+  color: #2c3e50;
+  transition: 550ms;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.skills .title h1 {
+  color: #f1c40f;
+  font-size: 40px;
+}
+.skills-items {
+  max-width: 550px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 15px;
+}
+.skills-items h3 {
+  padding: 5px 10px;
+  font-size: 15px;
+  background: #f1c40f;
+  color: #2c3e50;
+  border-radius: 2rem;
+}
+
+body {
+  background: #34495e;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+.github,
+.ig,
+.fb,
+.youtube,
+.twitter,
+.whatsapp {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
