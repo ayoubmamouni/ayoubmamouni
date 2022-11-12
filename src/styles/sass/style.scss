@@ -16,6 +16,9 @@ $mainFont: "Rubik", sans-serif;
 $MaxWidth: 550px;
 $Width: 95%;
 
+$loaderWidth: 150px;
+$loaderHeight: 150px;
+
 @mixin flex($jc, $ai) {
   display: flex;
   justify-content: $jc;
@@ -24,6 +27,7 @@ $Width: 95%;
 
 @import "./header";
 @import "./skills";
+@import "./overlay";
 
 html {
   scroll-behavior: smooth;
@@ -33,6 +37,7 @@ body {
   background: $PrimaryColor;
   font-family: $mainFont;
   overflow-x: hidden;
+  position: relative;
 }
 
 body::-webkit-scrollbar {
