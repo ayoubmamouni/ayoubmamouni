@@ -24,10 +24,19 @@ $Width: 95%;
 
 @import "./header";
 @import "./skills";
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: $PrimaryColor;
   font-family: $mainFont;
   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 // social media icons
 .github,

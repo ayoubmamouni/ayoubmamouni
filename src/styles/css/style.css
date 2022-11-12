@@ -101,10 +101,18 @@ header .socialMediaIcons .icon a i {
   border-radius: 2rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #34495e;
   font-family: "Rubik", sans-serif;
   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .github,
