@@ -12,6 +12,7 @@ $PrimaryColorMoreDarker: #2c3e50;
 $FontColor: #ecf0f1;
 $itemsColor: #f1c40f;
 $mainFont: "Rubik", sans-serif;
+$linkColor: #3498db;
 
 $MaxWidth: 550px;
 $Width: 95%;
@@ -26,8 +27,11 @@ $loaderHeight: 150px;
 }
 
 @import "./header";
-@import "./skills";
 @import "./overlay";
+@import "./skills";
+@import "./fbPages";
+@import "./certif";
+@import "./projects";
 
 html {
   scroll-behavior: smooth;

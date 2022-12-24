@@ -72,35 +72,6 @@ header .socialMediaIcons .icon a i {
   transition: 550ms;
 }
 
-.skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 20px;
-}
-.skills .title h1 {
-  color: #f1c40f;
-  font-size: 40px;
-}
-.skills-items {
-  max-width: 550px;
-  width: 95%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 5px;
-  padding: 15px;
-}
-.skills-items h3 {
-  padding: 5px 10px;
-  font-size: 15px;
-  background: #f1c40f;
-  color: #2c3e50;
-  border-radius: 2rem;
-}
-
 #overlay {
   background: #34495e;
   display: flex;
@@ -157,6 +128,161 @@ header .socialMediaIcons .icon a i {
     transform: scale(1.2);
   }
 }
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.skills .title h1 {
+  color: #f1c40f;
+  font-size: 40px;
+}
+.skills-items {
+  max-width: 550px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 15px;
+}
+.skills-items h3 {
+  padding: 5px 10px;
+  font-size: 15px;
+  background: #f1c40f;
+  color: #2c3e50;
+  border-radius: 2rem;
+}
+
+section.fbpages {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.fbpages h1 {
+  font-size: 30px;
+  color: #f1c40f;
+}
+section.fbpages .pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+section.fbpages .pages a {
+  text-decoration: none;
+}
+section.fbpages .pages a .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c3e50;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+section.fbpages .pages a .page img {
+  width: 100px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+section.fbpages .pages a .page .pageName {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6px;
+}
+section.fbpages .pages a .page .pageName b {
+  color: #f1c40f;
+  font-size: 25px;
+}
+section.fbpages .pages a .page .pageName p {
+  color: #ecf0f1;
+  opacity: 0.5;
+}
+section.fbpages .pages a .page .pageName p span {
+  color: #f1c40f;
+}
+
+section.certif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.certif img {
+  width: 95%;
+  max-width: 550px;
+}
+section.certif div {
+  margin: 20px 0;
+}
+section.certif div a {
+  padding: 10px;
+  border-radius: 4px;
+  color: #f1c40f;
+  border: 1px solid #f1c40f;
+  text-decoration: none;
+  font-weight: bold;
+  background: #2c3e50;
+}
+
+section.projects {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.projects h1 {
+  font-size: 30px;
+  color: #f1c40f;
+}
+section.projects .projectsItems a {
+  text-decoration: none;
+}
+section.projects .projectsItems a .project {
+  max-width: 550px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  background: #233140;
+  border: 1px solid #ecf0f1;
+  color: #f1c40f;
+}
+section.projects .projectsItems a .project .project-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.projects .projectsItems a .project .project-name img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+section.projects .projectsItems a .project .project-name b {
+  font-size: 25px;
+}
+section.projects .projectsItems a .project p {
+  margin-top: 15px;
+  text-align: center;
+  color: #ecf0f1;
+  opacity: 0.6;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+}
+
 html {
   scroll-behavior: smooth;
 }

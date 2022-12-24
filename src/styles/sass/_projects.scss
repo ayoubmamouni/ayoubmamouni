@@ -1,0 +1,44 @@
+section.projects {
+  margin-top: 30px;
+  @include flex(center, center);
+  flex-direction: column;
+  h1 {
+    font-size: 30px;
+    color: $itemsColor;
+  }
+  .projectsItems {
+    a {
+      text-decoration: none;
+      .project {
+        max-width: $MaxWidth;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        background: darken($PrimaryColorMoreDarker, 5);
+        border: 1px solid $FontColor;
+        color: $itemsColor;
+        .project-name {
+          @include flex(center, center);
+          flex-direction: column;
+          img {
+            width: 70px;
+            height: 70px;
+            margin-right: 10px;
+          }
+          b {
+            font-size: 25px;
+          }
+        }
+        p {
+          margin-top: 15px;
+          text-align: center;
+          color: $FontColor;
+          opacity: 0.6;
+          font-weight: 100;
+          letter-spacing: 0.5px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
