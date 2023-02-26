@@ -8,34 +8,27 @@ const igAccount = document.querySelector("#igAccount");
 const githubAccount = document.querySelector("#githubAccount");
 const youtubeAccount = document.querySelector("#youtubeAccount");
 const twitterAccount = document.querySelector("#twitterAccount");
-const whatsappAccount = document.querySelector("#whatsappAccount");
 
-// classes
+// Select elements by thier class name
 const github = document.querySelector(".github");
 const fbClass = document.querySelector(".fb");
 const igClass = document.querySelector(".ig");
 const youtube = document.querySelector(".youtube");
 const twitter = document.querySelector(".twitter");
-const whatsapp = document.querySelector(".whatsapp");
 
 //show social accounts function
-function socialMediaAcc(Atag, parentClass, url, isWhatsapp) {
-  if (isWhatsapp) {
-    let whastappLink = `https://api.whatsapp.com/send?phone=${url}&text=Hi`;
-    Atag.setAttribute("href", whastappLink);
-  } else {
-    Atag.setAttribute("href", url);
-  }
+function socialMediaAcc(Atag, parentClass, url) {
+  Atag.setAttribute("href", url);
   parentClass.style.display = "block";
 }
 
-// get data from config.json file
+// get data from config.json file and display it in main page.
 fetch("/config.json")
   .then((response) => response.json())
   .then((data) => {
     // Website title
     WebsiteTitle.innerHTML = data.WebsiteTitle;
-    // main Image
+    // main Image source and ALt data
     mainImg.src = data.MainImgSrc;
     mainImg.alt = data.MainImgSrcALT;
     // authorName
@@ -53,6 +46,4 @@ fetch("/config.json")
       socialMediaAcc(youtubeAccount, youtube, data.Youtube, false);
     if (data.showTwitter)
       socialMediaAcc(twitterAccount, twitter, data.twitter, false);
-    if (data.showtWhatsapp)
-      socialMediaAcc(whatsappAccount, whatsapp, data.WhatsappNumber, true);
   });

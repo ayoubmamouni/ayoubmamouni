@@ -7,6 +7,8 @@ header {
     img {
       width: $Width;
       max-width: 300px;
+      border-radius: 50px;
+      border: 5px solid $itemsColor;
     }
   }
 
