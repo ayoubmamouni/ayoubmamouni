@@ -1,7 +1,7 @@
 {
   "AuthorName": "Ayoub Mamouni",
   "WebsiteTitle": "Ayoub Mamouni",
-  "description": "My hobby is programming, I have more than 4 years of experience, I specialize in web development, also I have a small experience in Cyber Security and 2D Game development.",
+  "description": "I have more than 5 years of experience in programming, I specialize in Web Development and also have some experience in Game Development using Gdevelop and Godot Game engine.",
   "MainImgSrc": "/src/img/Ayoub.png",
   "MainImgSrcALT": "Ayoub Mamouni Logo",
   "ShowGithub": true,
@@ -11,7 +11,7 @@
   "showInstagram": true,
   "Instagram": "https://instagram.com/ayoubmamouni01",
   "showYoutube": true,
-  "Youtube": "https://youtube.com/@ayoubmamouni",
-  "showTwitter": true,
+  "Youtube": "https://youtube.com/@mamouni.official",
+  "showTwitter": false,
   "twitter": "https://twitter.com/ayoubmamouni24"
 }
