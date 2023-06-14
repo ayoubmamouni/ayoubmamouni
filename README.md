@@ -3,11 +3,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ayoubmamouni" alt="ayoubmamouni" /></a> </p>
 
-- 📝 I regularly write articles on [https://3alam.pro/ayoubmamouni](https://3alam.pro/ayoubmamouni)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/ayoubmamouni24" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ayoubmamouni01" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/ayoub-mamouni" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ayoub-mamouni" height="30" width="40" /></a>
 <a href="https://fb.com/ayoubmamouni01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ayoubmamouni01" height="30" width="40" /></a>
 <a href="https://instagram.com/ayoubmamouni01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ayoubmamouni01" height="30" width="40" /></a>
