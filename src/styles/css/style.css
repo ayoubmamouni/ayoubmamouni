@@ -21,7 +21,7 @@ header .header-img {
 header .header-img img {
   width: 95%;
   max-width: 300px;
-  border-radius: 50px;
+  border-radius: 100%;
   border: 5px solid #f1c40f;
 }
 header .authorDetails {
