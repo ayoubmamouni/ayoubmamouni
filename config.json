@@ -1,7 +1,7 @@
 {
   "AuthorName": "Ayoub Mamouni",
   "WebsiteTitle": "Ayoub Mamouni",
-  "description": "I have more than 5 years of experience in programming, I specialize in Web Development and also have some experience in Game Development using Gdevelop and Godot Game engine.",
+  "description": "I’m a skilled programmer with over five years of experience, specializing in Web Development. I also have hands-on experience in Game Development using the Godot Engine.",
   "MainImgSrc": "/src/img/Ayoub.png",
   "MainImgSrcALT": "Ayoub Mamouni Logo",
   "ShowGithub": true,
@@ -10,8 +10,8 @@
   "Fb": "https://facebook.com/ayoubmamouni01/",
   "showInstagram": true,
   "Instagram": "https://instagram.com/ayoubmamouni01",
-  "showYoutube": true,
-  "Youtube": "https://youtube.com/@mamouni.official",
+  "showYoutube": false,
+  "Youtube": "https://youtube.com",
   "showTwitter": false,
   "twitter": "https://twitter.com/ayoubmamouni24"
 }
